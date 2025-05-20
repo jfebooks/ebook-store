@@ -1,0 +1,48 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Jornada do Conhecimento | E-Book Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="index.html">📚 E-Book Store</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="catalog.html">Catálogo</a></li>
+          <li><a href="cart.html">Carrinho</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="product-detail">
+      <img src="images/ebook1.jpg" alt="A Jornada do Conhecimento">
+      <div class="product-info">
+        <h2>A Jornada do Conhecimento</h2>
+        <p><strong>Autor:</strong> João Silva</p>
+        <p><strong>Categoria:</strong> Desenvolvimento Pessoal</p>
+        <p><strong>Preço:</strong> R$ 19,90</p>
+        <p>
+          Este e-book apresenta uma jornada fascinante sobre como adquirir conhecimento de forma contínua e eficaz. Ideal para estudantes, profissionais e autodidatas.
+        </p>
+        <button onclick="addToCart('A Jornada do Conhecimento', 19.90)">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 E-Book Store. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
